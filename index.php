@@ -1,7 +1,7 @@
 <?php include ("app/include/header.php"); ?>
 
         <!-- SLIDER -->
-        <div class="bd-example col-md-8 offset-md-2">
+        <div class="bd-example col-md-8 offset-md-2 py-5">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item">
@@ -23,9 +23,8 @@
             </div>
         </div>
 
-
         <!-- LIST -->
-        <div class="bd-example offset-md-2 col-md-8">
+        <div class="bd-example offset-md-2 col-md-8 py-5">
             <div class="row row-cols-1 row-cols-md-4 g-4">
                 <?php include ("app/db/getProducts.php") ?>
             </div>
