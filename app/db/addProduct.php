@@ -2,7 +2,7 @@
 
 include("connect.php");
 
-$path = '../../assets/images/';
+$path = '../../app/images/';
 $title = $_POST['title'];
 $price = $_POST['price'];
 $rating = $_POST['rating'];
@@ -27,7 +27,6 @@ $dir = $path . $id;
 mkdir("$dir", 0700);
 $totalfiles = count($_FILES['slides']['name']);
 for ($key = 0; $key < $totalfiles; $key++){
-    //print_r($_FILES['slides']['name'][$key]);
     move_uploaded_file($_FILES['slides']['tmp_name'][$key], $dir . '/' . $key.'.jpg');
     $pathslides[] = $dir . '/' . $key.'.jpg';
 }

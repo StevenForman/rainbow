@@ -63,3 +63,34 @@ git push rainbow master
 git push rainbow master
 git push rainbow main
 git status
+git status
+git add .
+git commit -m "Детальная страница товара"
+git push origin main
+git push origin master
+git push origin main
+git push origin main
+git pull
+git push origin main
+git pull
+git pull <remote>
+git pull origin
+git pull origin master
+git pull rainbow master
+git status
+git status
+git push origin main
+git push rainbow main
+git status
+git -m commit
+git status
+git push rainbow main
+git push rainbow master
+git push rainbow master
+git status
+git checkout main
+git merge news
+git merge master
+git merge feature
+git merge master
+git merge master --squash

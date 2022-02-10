@@ -20,11 +20,12 @@
 <!-- HEADER -->
 <header class="border-bottom">
     <ul class="nav">
-        <li><a href="/../index.php" class="nav-link link-dark">Главная</a></li>
-        <li><a href="#" class="nav-link link-dark">Продукты</a></li>
-        <li><a href="#" class="nav-link link-dark">Отзывы</a></li>
-        <li><a href="#" class="nav-link link-dark">О нас</a></li>
-        <li><a href="../../addProducts/index.php" class="nav-link link-dark">ДОБАВИТЬ ТОВАР</a></li>
+        <li><a href=".." class="nav-link link-dark">Главная</a></li>
+        <li><a href="../#products" class="nav-link link-dark">Продукты</a></li>
+        <li><a href="../reviews" class="nav-link link-dark">Отзывы</a></li>
+        <li><a href="../contacts" class="nav-link link-dark">Контакты</a></li>
+        <li><a href="../about" class="nav-link link-dark">О нас</a></li>
+        <li><a href="../addProducts" class="nav-link link-dark">ДОБАВИТЬ ТОВАР</a></li>
     </ul>
 </header>
 
