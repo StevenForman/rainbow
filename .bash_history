@@ -94,3 +94,11 @@ git merge master
 git merge feature
 git merge master
 git merge master --squash
+cd
+ls
+git status
+git add .
+git commit -m "Каркас страниц"
+git push rainbow main
+git push rainbow master
+git push rainbow main
