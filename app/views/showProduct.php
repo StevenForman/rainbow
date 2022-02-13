@@ -10,8 +10,7 @@ echo '
             <div class="col-md-8">
                 <iframe src="slider.php" width="100%" height="600" seamless></iframe>
                   <h1 class="display-4 col-6">Цена: ' . $row['price'] . ' Р</h1>
-                  <h1 class="display-4 col-6 text-end">' . $row['rating'] . '</h1>
-                  <h1 class="display-4 col-6 text-end">' . $_SESSION['idProduct'] . '</h1>
+                  <div class="Stars col-md-12 text-center" style="--rating: ' . $row['rating'] . ';">
             </div>
         </div>
 ';

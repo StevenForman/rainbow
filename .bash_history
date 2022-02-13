@@ -102,3 +102,9 @@ git commit -m "Каркас страниц"
 git push rainbow main
 git push rainbow master
 git push rainbow main
+git status
+git add .
+git commit -m "Слайдер на детальной странице товара"
+git push origin main
+git push rainbow main
+git push rainbow master

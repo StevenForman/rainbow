@@ -4,7 +4,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>
     <script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
-    <link rel="stylesheet" href="../app/style/style.css">
+    <link rel="stylesheet" href="../app/style/slider.css">
 </head>
 <body>
     <div id="bg" class="slider"></div>
