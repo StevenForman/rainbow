@@ -117,3 +117,7 @@ git add .
 git commit -m "Вывод детальной страницы товара только при рейтинге выше 0 и вывод цены, только при ее наличии"
 git push rainbow master
 git push rainbow master
+git status
+git add .
+git commit -m "Верстка страницы контактов"
+git push rainbow master
