@@ -108,3 +108,7 @@ git commit -m "Слайдер на детальной странице това�
 git push origin main
 git push rainbow main
 git push rainbow master
+git status
+git add .
+git commit -m "Блок с рейтингом товара"
+git push rainbow master

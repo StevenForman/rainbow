@@ -1,6 +1,7 @@
 <?php
 
-echo '
+if(!empty($row['rating'])) {
+    echo '
         <div class="row g-0 py-5">
             <div class="col-md-4">
                 <div class="row gy-5">
@@ -9,8 +10,19 @@ echo '
             </div>
             <div class="col-md-8">
                 <iframe src="slider.php" width="100%" height="600" seamless></iframe>
-                  <h1 class="display-4 col-6">Цена: ' . $row['price'] . ' Р</h1>
-                  <div class="Stars col-md-12 text-center" style="--rating: ' . $row['rating'] . ';">
-            </div>
+    ';
+
+    if (!empty($row['price'])) {
+        echo '    
+            <h1 class="display-4 col-6">Цена: ' . $row['price'] . ' Р</h1>
+        ';
+    }
+
+    echo '
+        <div class="Stars col-md-12 text-center" style="--rating: ' . $row['rating'] . ';"></div>
         </div>
-';
+    ';
+}
+
+
+
