@@ -121,3 +121,9 @@ git status
 git add .
 git commit -m "Верстка страницы контактов"
 git push rainbow master
+git status
+git add .
+git commit -m "Страница обратной связи"
+git push rainbow master
+git push rainbow master
+git push rainbow master
