@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:700|IBM+Plex+Sans:500&display=swap");
 :root {
     --color-primary: #6B7A8F;
-    --color-secondary: white;
+    --color-secondary: #101118;
     --color-accent: #1D1F2F;
-    --color-focus: white;
+    --color-focus: #6D64F7;
     --base-duration: 600ms;
     --base-ease: cubic-bezier(0.25, 0.46, 0.45, 0.84);
 }
@@ -130,13 +130,13 @@ h1, h2, h3 {
     opacity: 0.5;
 }
 .slide--previous {
-    cursor: pointer;
+    cursor: w-resize;
 }
 .slide--previous:hover {
     transform: translateX(2%);
 }
 .slide--next {
-    cursor: pointer;
+    cursor: e-resize;
 }
 .slide--next:hover {
     transform: translateX(-2%);

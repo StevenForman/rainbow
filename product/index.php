@@ -4,9 +4,9 @@
 
     <?php include ("../app/db/getProduct.php"); ?>
 
-    <iframe src="../app/include/productSlider.php" width="100%" height="500" seamless scrolling="no"></iframe>
+    <?php include ("../app/include/productsSlider.php"); ?>
 
-    <div class="col-md-8 offset-md-2">
+    <div class="col-md-8 offset-md-2 gy-5">
         <div class="row g-0 py-5">
             <a class="btn btn-outline-secondary btn-lg btn-block text-center" href="../index.php">Назад</a>
         </div>

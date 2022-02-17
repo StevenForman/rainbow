@@ -1,6 +1,6 @@
 <?php
 
-    echo '
+echo '
     <form action="product/index.php" method="get">
         <div class="col">
             <div class="card h-100">
@@ -14,5 +14,3 @@
         </div>
     </form>
     ';
-
-
