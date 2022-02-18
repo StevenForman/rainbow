@@ -1,4 +1,5 @@
-<div id="app"><h1>TEST</h1></div>
+<h1>Другие товары</h1>
+<div id="app">
 
 <script>
     $.ajax({
