@@ -14,4 +14,6 @@ $text = $array['text'];
 $query = "INSERT INTO feedback (client_name, client_mail, client_phone, topic, text) VALUES ('$client_name', '$client_mail', '$client_phone', '$topic', '$text')";
 $sql = $pdo->query($query);
 
+include ("../tg/sendRequest.php");
+
 ?>

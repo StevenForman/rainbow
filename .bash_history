@@ -136,3 +136,11 @@ git status
 git add . 
 git commit -m "Блок с рандомным товаром"
 git push rainbow master
+git statis
+git status
+git add .
+git commit -m "Модальное окно обратной связи на странице товара"
+git push rainbow master
+git push rainbow master
+git push rainbow master
+git push rainbow master
