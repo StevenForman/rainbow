@@ -144,3 +144,8 @@ git push rainbow master
 git push rainbow master
 git push rainbow master
 git push rainbow master
+git status
+git .
+git add .
+git commit -m "ТГ-бот на обратной связи"
+git push rainbow master

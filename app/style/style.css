@@ -2,7 +2,7 @@
 
 @charset "UTF-8";
 :root {
-    --star-size: 100px;
+    --star-size: 80px;
     --star-color: #DCDCDC;
     --star-background: #fc0;
 }
@@ -43,7 +43,8 @@ html, body {
     display: flex;
     height: 100%;
     justify-content: center;
-    overflow-x: visible;
+    overflow-x: hidden;
+    overflow-y: hidden;
     width: 100%;
 }
 
@@ -59,26 +60,6 @@ html, body {
 .icon {
     fill: var(--color-primary);
     width: 100%;
-}
-
-.btn {
-    background-color: var(--color-primary);
-    border: none;
-    border-radius: 0.125rem;
-    color: white;
-    cursor: pointer;
-    font-family: inherit;
-    font-size: inherit;
-    padding: 1rem 2.5rem 1.125rem;
-}
-.btn:focus {
-    outline-color: var(--color-focus);
-    outline-offset: 2px;
-    outline-style: solid;
-    outline-width: 3px;
-}
-.btn:active {
-    transform: translateY(1px);
 }
 
 .slider__controls {

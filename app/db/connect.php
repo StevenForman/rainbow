@@ -2,8 +2,8 @@
 
 $driver = 'mysql';
 $host = 'localhost';
-$db_name = 'medvedgm_bd';
-$db_user = 'medvedgm_bd';
+$db_name = 'medved72_bd';
+$db_user = 'medved72_bd';
 $db_pass = '(S4815162342s)';
 $charset = 'utf8';
 $options = [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,

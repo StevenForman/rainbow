@@ -19,13 +19,13 @@
             <input name="rating" type="text" class="form-control" placeholder="Рейтинг" aria-label="Username" aria-describedby="basic-addon1">
         </div>
 
-        <div class="input-group mb-3">
-            <label class="input-group-text" for="inputGroupFile01">Главная фотография</label>
+        <div class="mb-3">
+            <span class="input-group-text" id="inputGroupFileAddon01">Главная фотография</span>
             <input name="photo" type="file" class="form-control" id="inputGroupFile01" />
         </div>
 
-        <div class="input-group mb-3">
-            <label class="input-group-text" for="inputGroupFile01">Фотографии для коллажа</label>
+        <div class="mb-3">
+            <label class="input-group-text">Фотографии для коллажа</label>
             <input name="slides[]" type="file" class="form-control" id="inputGroupFile01" multiple>
         </div>
 

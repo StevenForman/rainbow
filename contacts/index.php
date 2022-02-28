@@ -1,7 +1,12 @@
 <?php include ("../app/include/header.php"); ?>
 
-<div class="container">
+<?php include ("../app/include/sliderNews.php"); ?>
 
+<?php
+    $_SESSION['title'] = 'контакты';
+?>
+
+<div class="container">
     <div class="py-5 text-center">
         <h1 class="h2">Обратная связь</h1>
     </div>

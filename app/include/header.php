@@ -26,17 +26,24 @@
 <body>
 <!-- HEADER -->
 <header class="border-bottom">
-    <ul class="nav">
-        <li><a href=".." class="nav-link link-dark">Главная</a></li>
-        <li><a href="../#products" class="nav-link link-dark">Продукты</a></li>
-        <li><a href="../reviews" class="nav-link link-dark">Отзывы</a></li>
-        <li><a href="../contacts" class="nav-link link-dark">Контакты</a></li>
-        <li><a href="../about" class="nav-link link-dark">О нас</a></li>
-        <li><a href="../addProducts" class="nav-link link-dark">ДОБАВИТЬ ТОВАР</a></li>
-    </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="..">Главная</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample" aria-controls="navbarsExample" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse" id="navbarsExample">
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                    <li><a href="../#products" class="nav-link link-dark">Продукты</a></li>
+                    <li><a href="../reviews" class="nav-link link-dark">Отзывы</a></li>
+                    <li><a href="../contacts" class="nav-link link-dark">Контакты</a></li>
+                    <li><a href="../about" class="nav-link link-dark">О нас</a></li>
+                    <li><a href="../addProducts" class="nav-link link-dark">ДОБАВИТЬ ТОВАР</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 </header>
 
-
-
-
-
+<div class="container">

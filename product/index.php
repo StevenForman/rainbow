@@ -8,8 +8,11 @@
 
     <div>
         <div class="row md-12">
-            <div class="col-10"><h1>Описание товара</h1></div>
-            <div class="col"><a class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">Задать вопрос</a></div>
+            <div class="col-6"><h1>Описание товара</h1></div>
+            <div class="col d-grid gap-2 d-md-flex justify-content-md-end">
+                <a class="btn btn-secondary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">Задать вопрос</a>
+            </div>
+
 
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
