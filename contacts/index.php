@@ -8,7 +8,7 @@
 
 <div class="container">
     <div class="py-5 text-center">
-        <h1 class="h2">Обратная связь</h1>
+        <h1 class="display-5">Обратная связь</h1>
     </div>
     <div class="row g-3">
         <div class="col-md-6 offset-md-3">

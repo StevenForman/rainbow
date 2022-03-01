@@ -1,4 +1,4 @@
-<h1>Другие товары</h1>
+<h1 class="display-5 text-center">Другие товары</h1>
 <div id="app">
 
 <script>
@@ -19,7 +19,7 @@
                         headline: arr[i]['title'],
                         button: 'Выбрать',
                         src: arr[i]['photo'],
-                        url: "http://medvedgm.beget.tech/product/index.php?idProduct="+arr[i]['id']
+                        url: "http://medved72.beget.tech/product/index.php?idProduct="+arr[i]['id']
                     }
                 )
             }
@@ -86,8 +86,8 @@
 
 
                             React.createElement("article", { className: "slide__content" }, /*#__PURE__*/
-                                React.createElement("h2", { className: "slide__headline" }, headline), /*#__PURE__*/
-                                React.createElement("a", { className: "slide__action btn", href: url }, button))));
+                                React.createElement("h2", { className: "display-2" }, headline), /*#__PURE__*/
+                                React.createElement("a", { className: "slide__action btn btn-light btn-lg btn-block", href: url }, button))));
 
 
 

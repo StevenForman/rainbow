@@ -234,3 +234,10 @@ html, body {
         opacity: 1;
     }
 }
+
+/* ProductsList */
+
+.img-list {
+    object-fit: cover;
+    object-position: 50% 50%;
+}

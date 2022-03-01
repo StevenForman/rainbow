@@ -149,3 +149,8 @@ git .
 git add .
 git commit -m "ТГ-бот на обратной связи"
 git push rainbow master
+git status
+git add .
+git commit -m "Перенос сервера"
+git push rainbow main
+git push rainbow master

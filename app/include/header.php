@@ -1,4 +1,7 @@
-<?php session_start(); ?>
+<?php
+session_start();
+?>
+
 <!doctype html>
 
 <html lang="ru">
@@ -20,13 +23,13 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../app/style/style.css">
 
-    <title>Праздник</title>
+    <title>Главная</title>
 </head>
 
-<body>
+<body style="padding-top: 57px;">
 <!-- HEADER -->
-<header class="border-bottom">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+<header>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light border-bottom">
         <div class="container-fluid">
             <a class="navbar-brand" href="..">Главная</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample" aria-controls="navbarsExample" aria-expanded="true" aria-label="Toggle navigation">

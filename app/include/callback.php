@@ -28,7 +28,9 @@
 
             <hr class="my-4">
 
-            <button class="btn btn-secondary btn-lg btn-block" onclick="callbackSend()" id="callback-btn" type="button">Отправить</button>
+            <div class="d-grid gap-2 col-6 mx-auto pb-3">
+                <button class="btn btn-light btn-lg btn-block" onclick="callbackSend()" id="callback-btn" type="button">Отправить</button>
+            </div>
         </form>
 
 <script>
