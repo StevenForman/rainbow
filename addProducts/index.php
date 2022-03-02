@@ -32,4 +32,9 @@
         <p><input type="submit" class="btn btn-light border"></p>
     </form>
 </div>
+
+<script>
+    document.title = 'Добавить товар';
+</script>
+
 <?php include ("../app/include/footer.php"); ?>

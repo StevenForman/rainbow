@@ -1,16 +1,11 @@
-<?php
 
-echo '
-<form action="product/index.php" method="get">
     <div class="col">
-        <div class="card h-100">
-                <img src="' . $row['photo'] . '" class="card-img-top img-list" height="400">
+        <div class="h-100">
+            <a href="../product/index.php?idProduct=<?php echo $row['id'] ?>"><img src="<?php echo $row['photo'] ?>" class="card-img-top img-list" height="400"></a>
             <div class="card-body d-grid">
-                <h1 class="display-6 card-title">' . $row['title'] .'</h1>
-                <input type="hidden" name="idProduct" value="' . $row['id'] . '">
-                <input type="submit" class="btn btn-light btn-lg btn-block" value="Перейти">
+                <a class="nav-link px-2 text-muted display-6" href="../product/index.php?idProduct=<?php echo $row['id'] ?>"><?php echo $row['title'] ?></a>
             </div>
         </div>
     </div>
-</form>
-    ';
+
+

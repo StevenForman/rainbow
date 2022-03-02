@@ -19,4 +19,8 @@
     </div>
 </div>
 
+<script>
+    document.title = 'Контакты';
+</script>
+
 <?php include ("../app/include/footer.php"); ?>

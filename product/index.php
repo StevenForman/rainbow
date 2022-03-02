@@ -8,7 +8,7 @@
 
     <div class="col-md-12">
         <div class="d-grid gap-2 col-6 mx-auto">
-            <a class="btn btn-light btn-lg btn-block" data-bs-toggle="modal" data-bs-target="#exampleModal">Задать вопрос</a>
+            <a class="btn btn-light btn-lg btn-block" data-bs-toggle="modal" data-bs-target="#exampleModal">Отправить заявку</a>
         </div>
 
         <!-- Modal -->
@@ -16,7 +16,7 @@
             <div class="modal-dialog modal-lg modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-body">
-                        <h1 class="display-5 text-center">Задать вопрос</h1>
+                        <h1 class="display-5 text-center">Отправить заявку</h1>
                         <?php include ("../app/include/callback.php"); ?>
                     </div>
                 </div>

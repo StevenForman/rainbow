@@ -154,3 +154,7 @@ git add .
 git commit -m "Перенос сервера"
 git push rainbow main
 git push rainbow master
+git status
+git add .
+git commit -m "Расположение элементов на странице товаров, фиксированная шапка"
+git push rainbow master
